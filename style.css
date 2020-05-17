@@ -34,7 +34,7 @@ body {
 }
 .logo {
   width: 10%;
-  text-align: center;
+  margin: 50%;
   
 
 }
@@ -100,6 +100,8 @@ header h1 {
   flex-wrap: wrap;
   max-width: 900px;
   margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
 }
 .item-price {
   flex-grow: 1;
