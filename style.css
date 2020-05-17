@@ -9,6 +9,7 @@ body {
 .bars {
   font-size: 0.7em;
   text-align: right;
+  margin-bottom: 0;
   background: black;
 }
 .bars span {
@@ -16,7 +17,7 @@ body {
   color: white;
 }
 .bars a:hover {
-    background: grey;
+  background: grey;
 }
 .bars a {
     text-decoration: none;
@@ -33,10 +34,9 @@ body {
   /* height: 15em; */
 }
 .logo {
-  width: 10%;
-  margin: 50%;
+  width: 30%; 
+  min-width: 300px;    
   
-
 }
 body {
   background-color: bisque;
@@ -48,6 +48,7 @@ header h1 {
   margin: 0;
   text-align: center;
   padding: 0.5em;
+  padding-top: 0;
   border-bottom: 1px solid black;
   font-size: 3em;
 }
